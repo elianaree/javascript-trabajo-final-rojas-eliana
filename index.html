@@ -7,41 +7,62 @@
 
 <!--CSS-->
     <link rel="stylesheet" href="css/style.css" />
+    
     <!--JS-->
     <script defer src="./JS/js main.js"></script>
     <script defer src="./JS/carrito.js"></script>
+   
 </head>
 <body>
     <header>
         <div class="logo">
-            <img class="images" src="images/logo.png" alt="logo">
+            <img class="images" src="assets/images/logo.png" alt="logo">
         </div>
         
         <nav>
          
-                 <a href="index.html">Productos</a>
-                 
-                 
-             </ul>
-             <div class="carrito" id="carrito">
-               <img src="images/carrito.png" class="carrito" alt="carrito de compras">
+         
+             <div class="carrito" id="carrito"><span id="cantidadCarrito"
+                class="cantidad-carrito"></span>
+               <img src="assets/images/carrito.png" class="carrito" alt="carrito de compras">
+
                
                
-
-
             
+             </div>           
      </nav>
 
     </header>
+    <main>
+    
+        <h1>Productos</h1>
+        
+    </main>
+
+   
     
    <!--shop content-->
    <div id="shopContent" class="shop-content"></div>  
    <!--modal container-->  
    <div id="modal-container" class="modal-container"></div>
+   <!--vaciar carrito-->
+   <div id="vaciarCarrito" class="vaciar-carrito"></div>
            
+   <footer>
     
 
+    <div class="logo">
+        <img class="images" src="assets/images/logo2.png" alt="logo de la marca">
 
+<h2> &copy;2024. Todos los derechos reservados.</h2>
+    </div>
+</footer>
+
+<section id="products-container">
+    
+</section>
+<!--Sweet Alert-->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>
 </html>

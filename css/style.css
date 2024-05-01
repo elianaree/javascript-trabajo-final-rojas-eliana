@@ -42,8 +42,7 @@ nav ul{
 width: 80%;
 margin: 0 10%;
 max-height: 88vh;
-color: #fff;
-background-color: gray;
+background-color:lightgrey;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -62,7 +61,7 @@ scrollbar-color: none;
 .modal-header{
     display: flex;
     justify-content: space-around;
-    background-color: grey;
+    background-color:darkolivegreen;
     color:#fff;
     width: 100%;
 }
@@ -87,6 +86,13 @@ scrollbar-color: none;
     height: 120px;
     width: 120px;
 }
+.sumar{
+    cursor: pointer;
+}
+
+.restar{
+    cursor: pointer;
+}
 
 .total-content{
     font-size: 25px;
@@ -94,9 +100,29 @@ scrollbar-color: none;
     text-align: center;
     padding-top: 20px;
 }
+.btn{
+    font-size: 15px ;
+    bottom: 0px;
+    position:absolute;
+    cursor: pointer;
+    margin-top: 25px;
+    
+    
+    
+}
 
+.cantidad-carrito{
+background-color: black;
+color: white;
+border-radius: 50%;
+font-size: 16px;
+padding: 4px;
+top: 30px;
+right: 14px;
+position: absolute;
+display: none;
 
-
+}
 
 #shopContent{
 display: grid;
@@ -114,6 +140,10 @@ grid-template-columns: repeat(3, 1fr);
 
 }
 
+.delete-product{
+    cursor:pointer;
+}
+
 img{
     width: 70%;
     height: auto;
@@ -125,7 +155,7 @@ img{
 h3{
     display:grid;
     justify-content: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 p{
@@ -138,8 +168,25 @@ p{
     justify-content: center;
     margin-left: 42%;
     cursor: pointer;
-    margin: 9x 9px;
+    font-size: 16px;
 
+}
+
+
+.logo2{
+    width: 30%;
+    height:auto;
+}
+
+
+h2{
+    display: inline-block;
+    position:relative;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 15%;
+    
 }
 
 
